@@ -7,15 +7,15 @@
 # O programa deve calcular e exibir os valores convertidos, arredondando para duas casas decimais.
 
 #Declarando variáveis
-valorReal = float(input("Digite o valor para conversão em reais: "))
+valor_real = float(input("Digite o valor para conversão em reais: "))
 moeda = str(input("Digite dólar ou euro para conversão: "))
 
 #Condicional:
 if moeda == "dólar":
-    dolar = valorReal / 5.20
+    dolar = valor_real / 5.20
     print(f"O valor em dólar é : {dolar:.2f}")
 elif moeda == "euro":
-    euro = valorReal / 6.15
+    euro = valor_real / 6.15
     print(f"O valor em euro é : {euro:.2f}")
 else:
     print("Digite um valor válido")
@@ -29,7 +29,6 @@ else:
 # * Porcentagem de desconto: 20%
 # O programa deve calcular o valor do desconto e o preço final, exibindo todos os detalhes.
 
-2
 # Dados do produto
 nome_produto = "Camiseta"
 preco_original = 50.00
