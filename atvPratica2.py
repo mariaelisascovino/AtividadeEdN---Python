@@ -55,7 +55,7 @@ print(f"Preço final: R$ {preco_final:.2f}\n")
 # O programa deve calcular a média e exibir todas as notas e o resultado final, arredondando para duas casas decimais.
 
 
-# Notas do aluno (conforme enunciado)
+# Notas do aluno
 nota1 = 7.5
 nota2 = 8.0
 nota3 = 6.5
@@ -78,7 +78,7 @@ print(f"Média final: {media:.2f}\n")
 # O programa deve calcular o consumo médio (km/l) e exibir todos os dados da viagem, incluindo o resultado final arredondado para duas casas decimais.
 
 
-# Dados da viagem (conforme enunciado)
+# Dados da viagem 
 distancia = 300  # km
 combustivel = 25  # litros
 
