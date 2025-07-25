@@ -77,8 +77,6 @@ print(f"Média final: {media:.2f}\n")
 # * Combustível gasto: 25 litros
 # O programa deve calcular o consumo médio (km/l) e exibir todos os dados da viagem, incluindo o resultado final arredondado para duas casas decimais.
 
-# 4- Calculadora de Consumo de Combustível
-# Desenvolva um programa que calcula o consumo médio de combustível de um veículo.
 
 # Dados da viagem (conforme enunciado)
 distancia = 300  # km
