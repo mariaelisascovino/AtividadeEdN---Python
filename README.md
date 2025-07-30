@@ -66,12 +66,42 @@ Calcula o Índice de Massa Corporal e classifica o resultado, com tratamento par
 #### 3️⃣ **Conversor de Temperatura**  
 Converte entre escalas termométricas (Celsius, Fahrenheit e Kelvin) com base na unidade de origem e destino.  
 
-**Conceitos trabalhados:** Funções personalizadas, conversão de unidades, estruturas condicionais complexas e formatação de números decimais.  
+**Conceitos trabalhados:** Funções personalizadas, conversão de unidades, estruturas condicionais complexas e formatação de números decimais.
+
 
 #### 4️⃣ **Verificador de Ano Bissexto**  
 Determina se um ano é bissexto seguindo as regras do calendário gregoriano.  
 
 **Conceitos trabalhados:** Operadores lógicos (`and`, `or`), resto de divisão (`%`) e condições compostas.  
+
+
+---------------------------------------------------------------
+
+**Atividade Prática 4**
+
+#### 1️⃣ **Calculadora Simples**
+
+Executa operações matemáticas básicas entre dois números informados pelo usuário: soma, subtração, multiplicação e divisão.
+**Conceitos trabalhados:** Entrada de dados com `input()`, conversão de tipos (`float`), operadores aritméticos (`+`, `-`, `*`, `/`), condicionais `if/elif/else`, tratamento de erro de divisão por zero.
+
+
+#### 2️⃣ **Registro de Notas e Cálculo da Média da Turma**
+
+Solicita a quantidade de alunos, registra suas notas individualmente e calcula a média da turma.
+**Conceitos trabalhados:** Estrutura de repetição `for`, declaração e soma de variáveis, média aritmética, formatação de saída com `:.2f`.
+
+
+#### 3️⃣ **Verificador de Senha Segura**
+
+Valida se uma senha atende aos critérios básicos de segurança: no mínimo 8 caracteres e pelo menos um número.
+**Conceitos trabalhados:** Manipulação de strings, função `len()`, verificação de dígitos com `isdigit()`, função `any()`, estruturas condicionais compostas.
+
+
+#### 4️⃣ **Analisador de Números Pares e Ímpares**
+
+Recebe números do usuário até que digite `"sair"`. Cada número é classificado como **par** ou **ímpar**, e ao final exibe a contagem de cada tipo.
+**Conceitos trabalhados:** Estrutura de repetição `while`, controle de fluxo com `break` e `continue`, verificação de paridade (`%`), uso de métodos de string (`lower()`, `isdigit()`).
+
 
 
 
