@@ -127,5 +127,50 @@ Determina há quantos dias um indivíduo está vivo com base em sua data de nasc
 
 ---------------------------------------------------------------
 
+# Readme Atividade Prática 6
+
+1️⃣ **Gerador de Senha Aleatória**
+Gera uma senha aleatória contendo letras maiúsculas, minúsculas, números e caracteres especiais. O usuário informa a quantidade de caracteres desejada.
+**Conceitos trabalhados:**
+
+* Módulo `random` para escolha aleatória de caracteres
+* Módulo `string` para conjuntos de caracteres (letras, dígitos e símbolos)
+* Estrutura de repetição com compreensão de listas
+* Interação com o usuário via `input()`
+* Funções em Python (`def`) e retorno de valores (`return`)
+
+
+2️⃣ **Gerador de Perfil de Usuário Aleatório**
+Consulta a API [Random User Generator](https://randomuser.me/) para gerar informações de um usuário fictício, exibindo nome completo, email e país.
+**Conceitos trabalhados:**
+
+* Requisições HTTP com o módulo `requests`
+* Manipulação de respostas JSON (`resposta.json()`)
+* Acesso a dados aninhados em dicionários
+* Condicional para tratar erros de requisição (`status_code`)
+* Funções em Python para encapsular lógica
+
+
+3️⃣ **Consulta de Endereço por CEP**
+Recebe um CEP do usuário e retorna o logradouro, bairro, cidade e estado correspondentes, usando a API [ViaCEP](https://viacep.com.br/).
+**Conceitos trabalhados:**
+
+* Requisições HTTP e manipulação de JSON
+* Acesso seguro a chaves de dicionários com `get()`
+* Validação de dados e tratamento de erros (CEP inválido ou não encontrado)
+* Funções em Python para organizar código
+* Interação com o usuário e exibição formatada de resultados
+
+
+4️⃣ **Consulta de Cotação de Moeda**
+Permite ao usuário informar o código de uma moeda estrangeira (ex: USD, EUR, GBP) e retorna o valor atual em reais, valor máximo, mínimo e a data/hora da última atualização, utilizando a API [AwesomeAPI](https://docs.awesomeapi.com.br/api-de-moedas).
+**Conceitos trabalhados:**
+
+* Requisições HTTP e parsing de JSON
+* Conversão de strings para números (`float`)
+* Manipulação de dicionários para acessar informações específicas
+* Formatação de saída com casas decimais (`:.2f`)
+* Funções em Python para encapsular lógica
+
 
 
