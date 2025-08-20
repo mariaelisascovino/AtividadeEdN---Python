@@ -102,6 +102,30 @@ Valida se uma senha atende aos critérios básicos de segurança: no mínimo 8 c
 Recebe números do usuário até que digite `"sair"`. Cada número é classificado como **par** ou **ímpar**, e ao final exibe a contagem de cada tipo.
 **Conceitos trabalhados:** Estrutura de repetição `while`, controle de fluxo com `break` e `continue`, verificação de paridade (`%`), uso de métodos de string (`lower()`, `isdigit()`).
 
+---------------------------------------------------------------
+
+# 📋 Atividade Prática 5
+
+1️⃣ **Cálculo de Gorjeta em Restaurante**
+Cria uma função que calcula a gorjeta a ser deixada em um restaurante, baseada no valor total da conta e na porcentagem de gorjeta informada pelo usuário.
+**Conceitos trabalhados:** Definição de funções (`def`), parâmetros com tipo (`float`), operadores aritméticos, retorno de valores, formatação de saída com `:.2f`, e interação com o usuário via `input()`.
+
+
+2️⃣ **Verificador de Palíndromo**
+Implementa uma função que verifica se uma palavra ou frase é um palíndromo (lê-se igual de trás para frente), desconsiderando espaços e pontuações. Retorna **“Sim”** se for palíndromo e **“Não”** caso contrário.
+**Conceitos trabalhados:** Definição de funções (`def`), manipulação de strings (`lower()`, `isalnum()`), compreensão de listas para filtragem de caracteres, fatiamento de strings (`[::-1]`), condicionais `if/else`, e interação com o usuário via `input()`.
+
+
+3️⃣ **Cálculo de Preço com Desconto**
+Programa que calcula o preço final de um produto após aplicar um desconto percentual. Solicita o preço original e a porcentagem de desconto ao usuário e mostra o valor final já arredondado.
+**Conceitos trabalhados:** Definição de funções (`def`), operadores aritméticos, arredondamento de valores (`round()`), formatação de saída com `:.2f`, e entrada de dados com `input()`.
+
+
+4️⃣ **Cálculo de Dias de Vida**
+Determina há quantos dias um indivíduo está vivo com base em sua data de nascimento e a data atual. O usuário informa a data no formato `dd/mm/aaaa`, e o programa retorna a quantidade de dias.
+**Conceitos trabalhados:** Biblioteca `datetime`, manipulação e conversão de datas (`strptime`, `today`), cálculo de diferença entre datas, propriedades (`.days`), entrada de dados com `input()`, e formatação de saída.
+
+---------------------------------------------------------------
 
 
 
